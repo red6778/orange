@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Marketing</title>
+    <style>
+        /* CSS styles can be added here */
+        /* This is just an example */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f5ff;
+            color: #666;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-top: 0;
+            font-size: 36px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            line-height: 1.5;
+            font-size: 18px;
+        }
+        .price {
+            font-weight: bold;
+            color: #f90;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+        .prompt {
+            font-size: 24px;
+            color: #333;
+            text-decoration: none;
+        }
+        .prompt:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Social Media Marketing</h1>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Research on the Benefits of Social Media Marketing</h2>
+        <p>Social media marketing has become a crucial part of any business strategy in today's digital age. It allows businesses to reach a wider audience, engage with their customers, and build brand awareness. According to a report by Social Media Examiner, 97% of marketers are currently using social media to promote their business, and 78% of them have seen an increase in traffic to their website as a result.</p>
+        <p>Why should you trust me to handle your social media marketing? I have extensive experience in crafting effective social media campaigns, and I am always staying up-to-date with the latest trends and techniques to ensure that my clients are getting the best possible results. With my expertise, you can rest assured that your business is in good hands.</p>
+        <h2>Pricing</h2>
+        <p>My social media marketing services are priced at <span class="price">$20/hour</span>. Additionally, I offer a social media marketing course for those who want to learn how to market on social media themselves, priced at <span class="price">$40</span>. This course will teach you the tips and tricks that I use to create successful social media campaigns for my clients.</p>
+        <img src="flower.jpg" alt="Flower">
+        <p>If you're ready to take your social media marketing to the next level, contact me today to learn
