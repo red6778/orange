@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Your Success is Our Success</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <h2>About Us</h2>
+        <p>I am a dedicated entrepreneur and freelancer with a passion for creating effective digital marketing strategies. My expertise lies in crafting Google Ads, Facebook Ads, and Instagram Ads, as well as designing stunning and functional marketing campaigns.
 
+As a driven and detail-oriented individual, I strive to deliver high-quality work that exceeds expectations. I approach every project with the same level of professionalism and attention to detail, and I’m always staying up-to-date with the latest trends and techniques to ensure that my clients are always getting the best possible results.
+
+I have honed my skills and developed a deep understanding of what it takes to create successful online campaigns. If you’re looking for a reliable and dedicated professional to help you take your business to the next level, look no further. I am committed to delivering exceptional service and exceeding your expectations every step of the way. Let’s work together to achieve your goals and drive your business forward!
+	      </p>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>Privacy Policy<br>
+        "Privacy Policy: We collect data provided in the comments form, including the visitor’s IP address and browser user agent string to help spam detection. An anonymized string created from your email address may be provided to the Gravatar service to see if you are using it. Media uploaded to the website should not contain embedded location data. If you leave a comment on our site, you may opt-in to saving your name, email address, and website in cookies. These cookies will last for one year."
+
+
+
+</div>
+    </footer>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Your Website Title</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="navbar">
+			<div class="logo">
+				<a href="#">
+					<img src="logo.png" alt="Logo">
+				</a>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact<></p>
+      </div>
+    </footer>
+  </body>
+</html>
+></li>
+				</ul>
+			</div>
+			<div class="icons">
+				<a href="#" class="search"><i class="fas fa-search"></i></a>
+				<a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a>
+			</div>
+			<div class="clearfix"></div>
+		</nav>
+		<div class="hero">
+			<div class="hero-content">
+				<h1>Your Success is Our Success</h1>
+				<p>We help businesses succeed with our innovative solutions.</p>
+				<a href="#" class="btn">Get Started</a>
+			</div>
+		</div>
+	</header>
+	<section class="about">
+		<div class="container">
+			<h2>About Us</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+	</section>
+	<section class="services">
+		<div class="container">
+			<h2>Our Services</h2>
+			<div class="services-list">
+				<div class="service">
+					<i class="fas fa-laptop-code"></i>
+					<h3>Web Development</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="service">
+					<i class="fas fa-mobile-alt"></i>
+					<h3>Mobile App Development</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="service">
+					<i class="fas fa-chart-line"></i>
+					<h3>Digital Marketing</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blog">
+		<div class="container">
+			<h2>Latest Blog Posts</h2
