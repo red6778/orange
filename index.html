@@ -1,111 +1,134 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Altamedia.com - Our Services</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px;
-      background-color: #fff;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      font-family: Arial, sans-serif;
-    }
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Altamedia.com</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
 
-    h1 {
-      color: #333;
-      font-size: 28px;
-      margin-bottom: 20px;
-    }
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #f9f9f9;
+		}
 
-    input[type="text"],
-    input[type="email"],
-    textarea {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      margin-bottom: 15px;
-    }
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 40px;
+			background-color: #fff;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
 
-    input[type="submit"] {
-      background-color: #4CAF50;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 16px;
-    }
+		h1 {
+			color: #333;
+			font-size: 28px;
+			margin-bottom: 20px;
+		}
 
-    input[type="submit"]:hover {
-      background-color: #45a049;
-    }
+		input[type="text"],
+		input[type="email"],
+		textarea {
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			margin-bottom: 15px;
+			font-size: 16px;
+		}
 
-    img {
-      width: 300px;
-      height: auto;
-    }
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+		}
 
-    .box {
-      border: 1px solid #ccc;
-      padding: 20px;
-      margin-top: 20px;
-    }
+		input[type="submit"]:hover {
+			background-color: #45a049;
+		}
 
-    /* Additional styles for the services section */
-    section.container {
-      background-color: #f9f9f9;
-      padding: 40px;
-    }
+		img {
+			width: 300px;
+			height: auto;
+		}
 
-    section h2 {
-      color: #333;
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
+		.box {
+			border: 1px solid #ccc;
+			padding: 20px;
+			margin-top: 20px;
+		}
 
-    section p {
-      color: #666;
-      font-size: 16px;
-    }
+		/* Styling for the header */
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
 
-    section ul {
-      list-style: none;
-      padding: 0;
-      margin-top: 20px;
-    }
+		header .container {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
 
-    section li {
-      margin-bottom: 20px;
-    }
+		header ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
 
-    section h3 {
-      color: #333;
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>Your Success is Our Success</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="upkeep.html">Contact Us</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+		header ul li {
+			display: inline-block;
+			margin-right: 20px;
+		}
 
-  <section>
-    <div class="container">
-      <h2>About Us</h2>
-      <p>I am a dedicated entrepreneur and freelancer with a passion for creating effective digital marketing strategies. My expertise lies in crafting Google Ads, Facebook Ads, and Instagram Ads, as well as designing stunning and functional marketing campaigns.</p>
-      <p>As a driven and detail-oriented individual, I strive to deliver high-quality work that exceeds expectations. I approach every project with the same level of professionalism and attention to detail, and I’m always staying up-to-date with the latest trends and techniques to ensure that my clients are always getting the best possible results.</p>
-      <p>I have honed my skills and developed
+		header ul li a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+		/* Styling for the About Us section */
+		section.container.about-us {
+			background-color: #f9f9f9;
+			padding: 40px;
+		}
+
+		section h2.about-us-title {
+			color: #333;
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+
+		section p.about-us-description {
+			color: #666;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		/* Styling for the Services section */
+		section.container.services {
+			padding: 40px;
+		}
+
+		section h2.services-title {
+			color: #333;
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+
+		section p.services-description {
+			color: #666;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		section ul.services-list {
