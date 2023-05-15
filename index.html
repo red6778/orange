@@ -6,13 +6,40 @@
 	<title>Altamedia.com</title>
 	<link rel="stylesheet" href="style.css">
 	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
 		.container {
 			max-width: 800px;
 			margin: 0 auto;
 			padding: 40px;
 			background-color: #fff;
 			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: #f9f9f9;
+			padding: 20px;
+			text-align: center;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav ul li {
+			display: inline;
+			margin-right: 10px;
+		}
+
+		nav ul li a {
+			text-decoration: none;
+			color: #333;
 		}
 
 		h1 {
@@ -21,33 +48,28 @@
 			margin-bottom: 20px;
 		}
 
-		input[type="text"],
-		input[type="email"],
-		textarea {
-			width: 100%;
-			padding: 10px;
-			border: 1px solid #ccc;
-			border-radius: 4px;
-			margin-bottom: 15px;
+		section {
+			margin: 40px 0;
 		}
 
-		input[type="submit"] {
-			background-color: #4CAF50;
-			color: #fff;
-			padding: 10px 20px;
-			border: none;
-			border-radius: 4px;
-			cursor: pointer;
+		.container h2 {
+			color: #333;
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+
+		.container p {
+			color: #555;
 			font-size: 16px;
+			line-height: 1.5;
 		}
 
-		input[type="submit"]:hover {
-			background-color: #45a049;
-		}
-
-		img {
-			width: 300px;
-			height: auto;
+		footer {
+			margin-top: 40px;
+			padding: 20px;
+			background-color: #f9f9f9;
+			text-align: center;
+			color: #777;
 		}
 
 		.box {
@@ -56,35 +78,47 @@
 			margin-top: 20px;
 		}
 
-		.image-container {
+		.box h2 {
+			color: #333;
+			font-size: 24px;
+		}
+
+		.box p {
+			color: #555;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		.box .button {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			border-radius: 4px;
+			text-decoration: none;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		.box .button:hover {
+			background-color: #45a049;
+		}
+
+		.container .image-container {
 			text-align: center;
 		}
 
-		.image-container img {
+		.container .image-container img {
 			width: 100%;
 			max-width: 500px;
 			height: auto;
 			display: block;
 			margin: 0 auto;
 		}
-	</style>
-	<style>
-		.container {
-			min-height: 100vh;
-			display: flex;
-			flex-direction: column;
-		}
 
-		.content {
-			flex: 1;
-		}
-
-		.footer {
-			margin-top: auto;
-			padding: 20px;
-			background-color: #f9f9f9;
-			text-align: center;
-			color: #777;
+		.footer p {
+			margin: 10px 0;
 		}
 	</style>
 </head>
@@ -99,10 +133,4 @@
 				</ul>
 			</nav>
 		</div>
-	</header>
-	<section class="content">
-		<div class="container">
-			<h2>About Us</h2>
-			<p>I am a dedicated entrepreneur and freelancer with a passion for creating effective digital marketing strategies. My expertise lies in crafting Google Ads, Facebook Ads, and Instagram Ads, as well as designing stunning and functional marketing campaigns.</p>
-			<p>As a driven and detail-oriented individual, I strive to deliver high-quality work that exceeds expectations. I approach every project with the same level of professionalism and attention to detail, and I’m always staying up-to-date with the latest trends and techniques to ensure that my clients are always getting the best possible results.</p>
-			<p>I have honed my skills and developed a deep understanding of what it takes to create successful online campaigns. If you
+	</header
