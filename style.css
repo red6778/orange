@@ -1,61 +1,116 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Altamedia.com</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 40px;
+			background-color: #f5f5f5;
+			font-family: Arial, sans-serif;
+		}
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+		h1 {
+			color: #333;
+			font-size: 40px;
+			margin-bottom: 20px;
+			text-align: center;
+		}
 
-header {
-  background-color: #191919;
-  color: #fff;
-  padding: 40px 0; /* Increase the top and bottom padding to make the header taller */
-}
+		nav {
+			margin-top: 40px;
+			text-align: center;
+		}
 
-header h1 {
-  margin: 0;
-}
+		nav ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
 
-header nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+		nav ul li {
+			display: inline-block;
+			margin-right: 20px;
+		}
 
-header nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
+		nav ul li a {
+			color: #333;
+			text-decoration: none;
+			font-size: 18px;
+			transition: color 0.3s;
+		}
 
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
+		nav ul li a:hover {
+			color: #ff6f00;
+		}
 
-section {
-  padding: 50px 0;
-}
+		section {
+			padding: 40px 0;
+			text-align: center;
+		}
 
-section h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
+		h2 {
+			color: #333;
+			font-size: 30px;
+			margin-bottom: 20px;
+		}
 
-section p {
-  font-size: 18px;
-  line-height: 1.5;
-}
+		p {
+			color: #666;
+			font-size: 16px;
+			line-height: 1.6;
+		}
 
-footer {
-  background-color: #191919;
-  color: #fff;
-  padding: 20px 0;
-}
+		footer {
+			padding: 40px 0;
+			background-color: #333;
+			color: #fff;
+			text-align: center;
+		}
 
-footer p {
-  font-size: 14px;
-}
+		.footer-links {
+			margin-bottom: 20px;
+		}
+
+		.footer-links a {
+			color: #fff;
+			text-decoration: none;
+			margin: 0 10px;
+			font-size: 14px;
+			transition: color 0.3s;
+		}
+
+		.footer-links a:hover {
+			color: #ff6f00;
+		}
+
+		.footer-text {
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>ALTA MEDIA</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="upkeep.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<h2>About Us</h2>
+			<p>I am a dedicated entrepreneur and freelancer with a passion for creating effective digital marketing strategies. My expertise lies in crafting Google Ads, Facebook Ads, and Instagram Ads, as well as designing stunning and functional marketing campaigns.</p>
+
+			<p>As a driven and detail-oriented individual, I strive to deliver high-quality work that exceeds expectations. I approach every project with the same level of professionalism and attention to detail, and I’m always staying up-to-date with the latest trends and techniques to ensure that my clients are always getting the best possible results.</p>
+
+			<p>I have honed my skills and developed a deep understanding of what it takes to create successful
+include a privacy policy in this code at the bottom of the website
