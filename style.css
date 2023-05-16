@@ -68,7 +68,7 @@ footer p {
   height: auto; /* Maintain aspect ratio */
   margin-right: 10px; /* Adjust the margin as needed */
 }
-<p style="color: white;">Contact us for any inquiries or to discuss your project.</p>
+<p style="color: #FF0000;">Contact us for any inquiries or to discuss your project.</p>
 		<a href="upkeep.html" class="button">Contact Us</a>
 	</div>
 </div>
