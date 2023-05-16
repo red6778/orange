@@ -68,3 +68,32 @@ footer p {
   height: auto; /* Maintain aspect ratio */
   margin-right: 10px; /* Adjust the margin as needed */
 }
+<p style="color: black;">Contact us for any inquiries or to discuss your project.</p>
+		<a href="upkeep.html" class="button">Contact Us</a>
+	</div>
+</div>
+</footer>
+<style>
+	padding: 20px;
+	background-color:#424242;
+	text-align: center;
+}
+
+<style>
+.container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1;
+}
+
+.footer {
+	margin-top: auto;
+	padding: 20px;
+	background-color: white;
+	text-align: center;
+	color:#424242;
+}
