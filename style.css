@@ -85,15 +85,3 @@ footer p {
 	display: flex;
 	flex-direction: column;
 }
-
-.content {
-	flex: 1;
-}
-
-.footer {
-	margin-top: auto;
-	padding: 20px;
-	background-color: white;
-	text-align: center;
-	color:#424242;
-}
