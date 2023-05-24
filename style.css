@@ -116,3 +116,28 @@ footer nav ul li a {
   background-color: #333;
   color: #fff;
 }
+/* Global styles */
+body {
+  background-color: #f0f0f0; /* Change background color to grey */
+  /* Existing styles remain the same */
+}
+
+/* Section styles */
+section {
+  /* Existing styles remain the same */
+  display: flex; /* Add flex display */
+}
+
+section p {
+  /* Existing styles remain the same */
+  margin-right: 20px; /* Add margin-right for spacing */
+}
+
+section .about-image {
+  /* New styles for the image */
+  flex-shrink: 0; /* Prevent image from shrinking */
+  width: 200px; /* Adjust width as needed */
+}
+
+/* Footer styles */
+/* Existing styles remain the same */
