@@ -1,175 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alta Media</title>
   <style>
-    /* A California Stylesheet (MIT License) */
-    /* https://github.com/casscss/cass */
-
-    :root, html {
-      --base-h:204;
-      --base-s:76%;
-      --base-l:43%;
-      --base-tone:var(--white);
-      --alt-tone:var(--white);
-      --acc-tone:var(--white);
-      --text-measure:50;
-      --font-size-base:16px;
-      --text-indent:1ch;
-      --padding-base:1rem;
-      --margin-base:1rem;
-      --card:calc(var(--type)*.6);
-      --type:calc(var(--text-measure)*.55rem);
-      --page:calc(var(--type)*1.6);
-      --a:1;
-      --width:100%;
-      --padding:calc(var(--padding-base)*.6);
-      --p:var(--padding);
-      --margin:calc(var(--margin-base)*.6);
-      --m:var(--margin);
-      --font-size:calc(var(--font-size-base) - 2px);
-      --box-shadow:0 1px .3em hsla(var(--b-h),var(--b-s),var(--b-l),0.2);
-      --v:1;
-      --w-h:var(--base-h);
-      --w-s:calc(var(--base-s)*.1);
-      --w-l:calc(99% + (var(--v) * .1%));
-      --b-h:var(--base-h);
-      --b-s:calc(var(--base-s)*.1);
-      --b-l:calc(var(--base-l)*.2);
-      --white:hsl(var(--w-h),var(--w-s),var(--w-l));
-      --w:var(--white);
-      --black:hsl(var(--b-h),var(--b-s),var(--b-l));
-      --b:var(--black);
-      color:var(--b);
-      background-color:var(--w);
-      font-family:"Helvetica Neue",-apple-system,"Segoe UI",Roboto,Ubuntu,sans-serif;
-      line-height:1.5;
-      overflow-x:hidden
+    * {
+      box-sizing: border-box;
     }
-    * { 
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-size:calc(var(--font-size) * var(--i,1) * var(--j,1))
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
     }
-    body{min-height:100vh}
-    body * {
-      padding-left:calc(50% - var(--width) * .5);
-      padding-right:calc(50% - var(--width) * .5)
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    h1{--i:2}
-    h2{--i:1.8}
-    h3{--i:1.4}
-    h4{--i:1.2}
-    h5{--i:1.1}
-    h1,h2,h3,h4,h5,h6{
-      --j:1;
-      line-height:1.25;
-      margin-bottom:.5em;
-      letter-spacing:-.02em
+    
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 0;
     }
-    span,em,strong,i,pre,code,address,blockquote,cite,a{padding-left: unset; padding-right: unset}
-    p,ul,ol{margin:0;margin-bottom:var(--margin)}
-    p{line-height:1.6}
-    p+p{margin-top:calc(var(--margin) * 1.5)}
-    h1+p,h2+p,h3+p,h4+p,h5+p,h6+p{margin-top:calc(var(--margin) * 1.5)}
-    h1+h2,h1+h3,h2+h3,h2+h4,h3+h4,h3+h5,h4+h5,h4+h6,h5+h6{
-      margin-top:calc(var(--margin) * 1.5);
-      margin-bottom:.5em
-    }
-    h1+h2+p,h1+h3+p,h2+h3+p,h2+h4+p,h3+h4+p,h3+h5+p,h4+h5+p,h4+h6+p,h5+h6+p{
-      margin-top:calc(var(--margin) * 1.5);
-      margin-bottom:var(--margin)
-    }
-    ul,ol{
-      list-style-position:outside;
-      padding-left:calc(var(--text-indent) * 2)
-    }
-    ul ul,ol ol{margin-top:calc(var(--margin) * 1.5)}
-    li ul,li ol{
-      margin-top:.5em;
-      margin-bottom:.5em
-    }
-    li ul{margin-left:calc(var(--text-indent) * 2)}
-    li ol{margin-left:calc(var(--text-indent) * 2)}
-    a{color:var(--acc-tone);text-decoration:none;outline:0}
-    a,a:hover{transition:color .3s}
-    a:active,a:focus{text-decoration:none;color:inherit}
-    h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:inherit}
-    a:hover{text-decoration:underline}
-    pre,code,blockquote,address,cite{
-      margin-top:calc(var(--margin) * 1.5);
-      margin-bottom:calc(var(--margin) * 1.5)
-    }
-    pre code{
-      background-color:var(--base-tone);
-      padding:calc(var(--padding) * 1.25);
-      border-radius:calc(var(--card) * 1.25);
-      box-shadow:var(--box-shadow)
-    }
-    blockquote{border-left:calc(var(--type) * .5) solid var(--alt-tone)}
-    table{border-collapse:collapse;margin-bottom:calc(var(--margin) * 1.5)}
-    th,td{padding:var(--padding)}
-    th{background-color:var(--alt-tone);text-align:left}
-    thead th{vertical-align:bottom}
-    tbody th,tbody td{border-top:.1em solid var(--base-tone)}
-    tbody tr:last-child th,tbody tr:last-child td{border-bottom:.1em solid var(--base-tone)}
-    img{display:block;max-width:100%}
-    figure{margin:calc(var(--margin) * 1.5) 0}
-    figcaption{font-size:.8em}
-    hr{
-      margin-top:calc(var(--margin) * 1.5);
-      margin-bottom:calc(var(--margin) * 1.5);
-      height:0;
-      border:0;
-      border-top:.1em solid var(--base-tone)
-    }
-    code{
-      font-family:Consolas,"Liberation Mono",Courier,monospace;
-      font-size:.9em;
-      color:var(--base-tone)
-    }
-    sup,sub{font-size:.8em}
-    hr{margin-top:calc(var(--margin) * 1.5)}
-    .container{
-      max-width:var(--width);
-      margin-left:auto;
-      margin-right:auto;
-      padding-left:var(--padding);
-      padding-right:var(--padding)
-    }
-    @media(min-width:42em){
-      :root{--width:calc(100% - var(--padding) * 2)}
-      body *{
-        padding-left:calc(50% - var(--width) * .5);
-        padding-right:calc(50% - var(--width) * .5)
-      }
-      .container{padding-left:calc(var(--padding) * 2);padding-right:calc(var(--padding) * 2)}
-    }
-    @media(min-width:62em){
-      :root{--width:calc(100% - var(--padding) * 4)}
-      body *{
-        padding-left:calc(50% - var(--width) * .5);
-        padding-right:calc(50% - var(--width) * .5)
-      }
-      .container{padding-left:calc(var(--padding) * 4);padding-right:calc(var(--padding) * 4)}
-    }
-    @media(min-width:82em){
-      :root{--width:calc(100% - var(--padding) * 8)}
-      body *{
-        padding-left:calc(50% - var(--width) * .5);
-        padding-right:calc(50% - var(--width) * .5)
-      }
-      .container{padding-left:calc(var(--padding) * 8);padding-right:calc(var(--padding) * 8)}
+    
+    p {
+      font-size: 16px;
+      line-height: 1.5;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <!-- Your content here -->
+    <h1>Alta Media</h1>
+    <p>Welcome to our professional-looking page!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur nunc id erat tincidunt, vel accumsan lacus ultricies. Nulla at urna non nunc hendrerit ullamcorper.</p>
+    <p>Phasellus euismod nunc sed arcu iaculis, sed egestas odio lacinia. Vestibulum congue neque a nisl eleifend, ac fermentum tortor suscipit. In fermentum tortor id ligula lacinia, nec aliquet ipsum interdum. Sed id ligula ut odio ullamcorper accumsan id nec sem.</p>
   </div>
 </body>
 </html>
