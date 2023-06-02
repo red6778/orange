@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html>
 <head>
   <title>Alta Media - Digital Advertising Agency</title>
@@ -8,12 +9,14 @@
       line-height: 1.6;
       margin: 0;
       padding: 0;
+      background-color: #f2f2f2;
     }
 
     header {
       background-color: #333;
       color: #fff;
       padding: 20px;
+      text-align: center;
     }
 
     h1 {
@@ -39,14 +42,20 @@
 
     section {
       padding: 40px;
+      background-color: #fff;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
       font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
     }
 
     p {
       font-size: 16px;
+      color: #666;
     }
 
     footer {
@@ -58,6 +67,26 @@
 
     footer p {
       margin: 0;
+    }
+
+    .banner {
+      background-image: url('https://example.com/banner.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      margin-bottom: 40px;
+    }
+
+    .portfolio-item {
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .portfolio-item img {
+      max-width: 100%;
+      height: auto;
     }
   </style>
 </head>
@@ -75,6 +104,7 @@
   </header>
   
   <section id="about">
+    <div class="banner"></div>
     <h2>About Alta Media</h2>
     <p>Alta Media is a leading digital advertising agency that specializes in helping businesses reach their target audience through effective online marketing strategies.</p>
   </section>
@@ -91,19 +121,4 @@
   </section>
   
   <section id="portfolio">
-    <h2>Our Portfolio</h2>
-    <!-- Add your portfolio items here -->
-  </section>
-  
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>For inquiries or to discuss your digital advertising needs, please reach out to us:</p>
-    <p>Email: info@altamedia.com</p>
-    <p>Phone: 123-456-7890</p>
-  </section>
-  
-  <footer>
-    <p>&copy; 2023 Alta Media. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+    <h2>Our
